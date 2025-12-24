@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(fastmcp --help:*)",
+      "Bash(python -c:*)",
+      "mcp__localChartMcp__generate_line_chart",
+      "Bash(pkill:*)",
+      "mcp__localChartMcp__generate_column_chart",
+      "mcp__localChartMcp__generate_dual_axes_chart",
+      "mcp__localChartMcp__generate_pie_chart",
+      "mcp__localChartMcp__generate_area_chart",
+      "mcp__localChartMcp__generate_scatter_chart",
+      "Bash(curl:*)",
+      "Bash(tree:*)",
+      "Bash(.gitignore)",
+      "Bash(git commit:*)"
+    ],
+    "deny": [],
+    "ask": [
+      "Bash(rm:*)"
+    ]
+  }
+}
